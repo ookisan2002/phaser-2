@@ -1,0 +1,141 @@
+{
+    "id": "32e61890-e95a-4d4f-8c33-877c1b27b0b5",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "MainMenu",
+        "borderWidth": 1024,
+        "borderHeight": 768
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "eddaf8e1-94d1-401d-a328-cdfb23d1fef5",
+            "label": "background",
+            "texture": {
+                "key": "background"
+            },
+            "x": 512,
+            "y": 384
+        },
+        {
+            "type": "Image",
+            "id": "e5babb96-c526-40f4-94d3-ce0955d9767d",
+            "label": "logo",
+            "scope": "CLASS",
+            "texture": {
+                "key": "logo"
+            },
+            "x": 513,
+            "y": 384
+        },
+        {
+            "type": "Text",
+            "id": "849c46c6-b507-4dba-9e0b-1d60465186c2",
+            "label": "text",
+            "x": 512,
+            "y": 460,
+            "originX": 0.5,
+            "originY": 0.5,
+            "text": "Main Menu",
+            "align": "center",
+            "fontFamily": "Arial Black",
+            "fontSize": "38px",
+            "color": "#ffffff",
+            "stroke": "#000000",
+            "strokeThickness": 8
+        },
+        {
+            "type": "ArcadeImage",
+            "id": "049b1eff-f84b-41dd-9fc8-5cd569be1543",
+            "label": "arcadeimage_1",
+            "scope": "CLASS",
+            "hitArea.shape": "RECTANGLE",
+            "hitArea.x": 54,
+            "hitArea.y": 144,
+            "hitArea.width": 437.9634824280046,
+            "hitArea.height": 134.58620911602011,
+            "texture": {
+                "key": "dish"
+            },
+            "x": 490.59865828313093,
+            "y": 627,
+            "scaleX": 0.6308267769212006,
+            "scaleY": 0.6859023001165873,
+            "originX": 0.4959014083732127,
+            "allowGravity": false,
+            "collideWorldBounds": true,
+            "immovable": true,
+            "body.width": 420,
+            "body.height": 86,
+            "body.offset.x": 62,
+            "body.offset.y": 182
+        },
+        {
+            "type": "ArcadeImage",
+            "id": "653a5c65-bc03-4ab4-9449-1420490979c4",
+            "label": "ball",
+            "scope": "CLASS",
+            "hitArea.shape": "CIRCLE",
+            "hitArea.x": 1220,
+            "hitArea.y": 1242,
+            "hitArea.radius": 1028.9064512498664,
+            "texture": {
+                "key": "ball"
+            },
+            "x": 455,
+            "y": 182,
+            "scaleX": 0.023363868896597875,
+            "scaleY": 0.023363868896597875,
+            "ArcadeComponent.active": true,
+            "maxSpeed": 10000,
+            "body.friction.x": 100,
+            "body.friction.y": 100,
+            "body.gravity.y": 1,
+            "body.bounce.x": 0.5,
+            "body.bounce.y": 0.5,
+            "collideWorldBounds": true,
+            "bodyGeometry": 0,
+            "radius": 1036,
+            "body.width": 2072,
+            "body.height": 2072,
+            "body.offset.x": 150,
+            "body.offset.y": 249
+        }
+    ],
+    "plainObjects": [
+        {
+            "id": "6a7ddf58-1dc7-4913-a7ce-45cc159d7707",
+            "type": "Keyboard.Key",
+            "label": "upKey",
+            "keyCode": "UP"
+        },
+        {
+            "id": "7a321266-8e71-4383-81e0-9e3908cd21c1",
+            "type": "Keyboard.Key",
+            "label": "downKey",
+            "keyCode": "DOWN"
+        },
+        {
+            "id": "4b71f53a-0ff1-46e0-a7a2-d28453655f01",
+            "type": "Keyboard.Key",
+            "label": "leftKey",
+            "keyCode": "LEFT"
+        },
+        {
+            "id": "c3dad65d-d471-4329-86fe-e2eae9a3db45",
+            "type": "Keyboard.Key",
+            "label": "rightKey",
+            "keyCode": "RIGHT"
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

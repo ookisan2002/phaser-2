@@ -1,0 +1,78 @@
+{
+    "id": "66473dba-1d47-44d9-9c45-d6ea43b101b3",
+    "sceneType": "SCENE",
+    "settings": {
+        "exportClass": true,
+        "autoImport": true,
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Test",
+        "borderWidth": 1024,
+        "borderHeight": 768
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "087b375a-318d-4eaa-85cc-79154286ec40",
+            "label": "background",
+            "texture": {
+                "key": "background"
+            },
+            "x": 515,
+            "y": 384
+        },
+        {
+            "type": "Image",
+            "id": "ad15df8e-8763-47aa-bbed-c777c6e76334",
+            "label": "dish",
+            "texture": {
+                "key": "dish"
+            },
+            "x": 506,
+            "y": 694,
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "type": "Image",
+            "id": "2a62b2f7-7211-434c-8f8d-e10d85afc21e",
+            "label": "ball",
+            "hitArea.shape": "CIRCLE",
+            "hitArea.x": 1250,
+            "hitArea.y": 1250,
+            "hitArea.radius": 1250,
+            "texture": {
+                "key": "ball"
+            },
+            "x": 498,
+            "y": 273,
+            "scaleX": 0.05,
+            "scaleY": 0.05,
+            "ArcadeComponent.active": true,
+            "bodyGeometry": 0,
+            "body.width": 128,
+            "body.height": 128
+        },
+        {
+            "type": "ArcadeImage",
+            "id": "6c9e8cf4-9536-44a8-aac8-d1a490c35fec",
+            "label": "arcadeimage_1",
+            "texture": {
+                "key": "ball"
+            },
+            "x": 705,
+            "y": 351,
+            "scaleX": 0.05,
+            "scaleY": 0.05,
+            "body.width": 2500,
+            "body.height": 2500
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}
