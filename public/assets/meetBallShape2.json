@@ -1,0 +1,35 @@
+{
+	"generator_info": "Shape definitions generated with PhysicsEditor. Visit https://www.codeandweb.com/physicseditor",
+	"meetBall_2": {
+		"type": "fromPhysicsEditor",
+		"label": "meetBall_2",
+		"isStatic": false,
+		"density": 0.1,
+		"restitution": 0,
+		"friction": 0.1,
+		"frictionAir": 0.01,
+		"frictionStatic": 0.5,
+		"collisionFilter": {
+			"group": 0,
+			"category": 1,
+			"mask": 255
+		},
+		"fixtures": [
+			{
+				"label": "",
+				"isSensor": false,
+				"vertices": [
+					[ { "x":124, "y":6 }, { "x":112, "y":10 }, { "x":117, "y":18 } ],
+					[ { "x":3, "y":122 }, { "x":11, "y":120 }, { "x":31, "y":97 }, { "x":23, "y":90 }, { "x":0, "y":112 } ],
+					[ { "x":46, "y":39 }, { "x":45, "y":53 }, { "x":66, "y":76 }, { "x":77, "y":75 }, { "x":94, "y":52 }, { "x":72, "y":29 }, { "x":59, "y":30 } ],
+					[ { "x":76, "y":12 }, { "x":72, "y":29 }, { "x":94, "y":52 }, { "x":109, "y":49 }, { "x":117, "y":18 }, { "x":100, "y":4 }, { "x":90, "y":5 } ],
+					[ { "x":58, "y":98 }, { "x":65, "y":88 }, { "x":66, "y":76 }, { "x":45, "y":53 }, { "x":23, "y":90 }, { "x":31, "y":97 }, { "x":44, "y":100 } ],
+					[ { "x":117, "y":18 }, { "x":109, "y":49 }, { "x":120, "y":36 }, { "x":120, "y":23 } ],
+					[ { "x":23, "y":90 }, { "x":45, "y":53 }, { "x":32, "y":54 }, { "x":21, "y":63 }, { "x":17, "y":74 } ],
+					[ { "x":77, "y":75 }, { "x":86, "y":72 }, { "x":93, "y":63 }, { "x":94, "y":52 } ],
+					[ { "x":117, "y":18 }, { "x":112, "y":10 }, { "x":100, "y":4 } ]
+				]
+			}
+		]
+	}
+}

@@ -23,16 +23,18 @@
             "alpha": 0.5
         },
         {
-            "type": "Image",
-            "id": "85fab71e-70ed-47f4-9063-943a8a414b4c",
-            "label": "meetBall_1",
+            "type": "ArcadeImage",
+            "id": "159ff94d-8729-446a-a839-59f0a1a08ff7",
+            "label": "arcadeimage_1",
             "texture": {
-                "key": "meetBall_1"
+                "key": "dish"
             },
-            "x": 453,
-            "y": 382,
-            "scaleX": 0.1596273824361197,
-            "scaleY": 0.1596273824361197
+            "x": 478,
+            "y": 572,
+            "body.width": 407,
+            "body.height": 65,
+            "body.offset.x": 72,
+            "body.offset.y": 204
         }
     ],
     "plainObjects": [],

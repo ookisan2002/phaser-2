@@ -31,6 +31,16 @@
                 "key": "meetBall_1"
             },
             {
+                "url": "assets/meetBall_2.png",
+                "type": "image",
+                "key": "meetBall_2"
+            },
+            {
+                "url": "assets/meetBallShape2.json",
+                "type": "json",
+                "key": "meetBallShape2"
+            },
+            {
                 "url": "assets/star.png",
                 "type": "image",
                 "key": "star"

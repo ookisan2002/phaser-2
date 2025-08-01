@@ -16,22 +16,15 @@ export default class Game extends Phaser.Scene {
 
 	/** @returns {void} */
 	editorCreate() {
-		const shapes = this.cache.json.get('meetBall');
-		console.log(shapes);
-
-		// const ball = this.matter.add.sprite(400, 300, 'ball', null, { shape: shapes.meetBall });
 
 		// background
 		const background = this.add.image(512, 384, "background");
 		background.alpha = 0.5;
 
-		// meetBall_1
-		const meetBall_1 = this.matter.add.image(453, 382, "meetBall_1",undefined, { shape: shapes.meetBall });
-		// meetBall_1.setCircle(1036);
-		meetBall_1.setBounce(0.1);
-		meetBall_1.setFriction(0, 0, 0.5);
-		meetBall_1.setScale(0.1596273824361197, 0.1596273824361197);
-		meetBall_1.setDensity(1)
+		// arcadeimage_1
+		const arcadeimage_1 = this.physics.add.image(478, 572, "dish");
+		arcadeimage_1.body.setOffset(72, 204);
+		arcadeimage_1.body.setSize(407, 65, false);
 
 		this.events.emit("scene-awake");
 	}
