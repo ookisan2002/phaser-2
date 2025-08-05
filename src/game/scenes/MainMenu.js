@@ -143,6 +143,11 @@ export default class MainMenu extends Phaser.Scene {
             this.changeItem
         );
 
+		this.itemMeetBallButton.setScrollFactor(1);
+		this.itemOrangeButton.setScrollFactor(1);
+		this.itemCrateButton.setScrollFactor(1);
+		this.itemBananaButton.setScrollFactor(1);
+
         this.currentItemType = ITEM_LIST[0];
 
         this.events.emit("scene-awake");
@@ -190,6 +195,7 @@ export default class MainMenu extends Phaser.Scene {
         );
         meetBall_1.body.pushable = false;
         meetBall_1.setBounce(0.3);
+		meetBall_1.setFriction(0.3);
 
         meetBall_1.body.isStatic = true;
         this.currentBall = meetBall_1;
@@ -237,6 +243,10 @@ export default class MainMenu extends Phaser.Scene {
                     let startBgY = this.bg.y;
                     let startTileY = this.bg.tilePositionY;
                     let startScrollY = this.cameras.main.scrollY;
+					let startMeetBallButtonY = this.itemMeetBallButton.y;
+					let startOrangeButtonY = this.itemOrangeButton.y;
+					let startCrateButtonY = this.itemCrateButton.y;
+					let startBananaButtonY = this.itemBananaButton.y;
                     let delta = 200;
                     this.tweens.add({
                         targets: { value: 0 },
@@ -248,6 +258,10 @@ export default class MainMenu extends Phaser.Scene {
                             this.bg.y = startBgY - v;
                             this.bg.tilePositionY = startTileY - v;
                             this.cameras.main.scrollY = startScrollY - v;
+							this.itemMeetBallButton.y = startMeetBallButtonY - v;
+							this.itemOrangeButton.y = startOrangeButtonY - v;
+							this.itemCrateButton.y = startCrateButtonY - v;
+							this.itemBananaButton.y = startBananaButtonY - v;
                         },
 						onComplete: () => {
 							this.addBall();
