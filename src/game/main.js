@@ -34,12 +34,17 @@ const config = {
         default: 'matter',
         matter: {
             gravity: { y: 1 },
-            debug: {
-                collisionColor: 0xff0000,
-                boundsColor: 0xff0000,
-                staticLineColor: 0xff0000,
-            },
-            setBounds: true
+            // debug: {
+            //     collisionColor: 0xff0000,
+            //     boundsColor: 0xff0000,
+            //     staticLineColor: 0xff0000,
+            // },
+            setBounds: {
+                top: false,
+                left: true,
+                right: true,
+                bottom: true
+            }
         }
     },
 };

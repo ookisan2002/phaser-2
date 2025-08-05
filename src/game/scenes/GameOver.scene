@@ -42,12 +42,21 @@
             "color": "#ffffff",
             "stroke": "#000000",
             "strokeThickness": 8
+        },
+        {
+            "prefabId": "39bedbb0-e2ac-4eba-80e0-b1f426da9f98",
+            "id": "3ddbdd9e-3018-414f-928f-33e1c9b72bb6",
+            "unlock": [
+                "targetGameObject"
+            ],
+            "label": "cameraFollowObjectScript",
+            "targetGameObject": "textgameover"
         }
     ],
     "plainObjects": [],
     "meta": {
-        "app": "Phaser Editor 2D - Scene Editor",
-        "url": "https://phasereditor2d.com",
+        "app": "Phaser Editor - Scene Editor",
+        "url": "https://phaser.io/editor",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
         "version": 5
     }

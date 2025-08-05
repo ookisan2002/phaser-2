@@ -9,11 +9,31 @@
                 "key": "ball"
             },
             {
+                "url": "assets/banana.png",
+                "type": "image",
+                "key": "banana"
+            },
+            {
+                "url": "assets/bg_2.jpg",
+                "type": "image",
+                "key": "bg_2"
+            },
+            {
+                "url": "assets/crate.png",
+                "type": "image",
+                "key": "crate"
+            },
+            {
                 "url": {
                     "IMG": "assets/dish.png"
                 },
                 "type": "texture",
                 "key": "dish"
+            },
+            {
+                "url": "assets/itemShape.json",
+                "type": "json",
+                "key": "itemShape"
             },
             {
                 "url": "assets/logo.png",
@@ -39,6 +59,11 @@
                 "url": "assets/meetBallShape2.json",
                 "type": "json",
                 "key": "meetBallShape2"
+            },
+            {
+                "url": "assets/orange.png",
+                "type": "image",
+                "key": "orange"
             },
             {
                 "url": "assets/star.png",
